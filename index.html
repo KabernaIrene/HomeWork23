@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home Work 23</title>
+        <meta charset="UTF-8">
+        <style>
+            h4{margin: 0px;}
+        </style>
+    </head>
+
+    <body>
+        <form action="#" class="form">
+            <div>
+                <label for="user_name">Write your name, please</label>
+                <input type="text" placeholder="Name" id="user_name" name="name">
+                <label for="user_surname">Write your surname, please</label>
+                <input type="text" placeholder="Surname" id="user_surname" name="surname">
+            </div>
+
+            <div>
+                <label for="user_birthday">You was born</label>
+                <input type="date" id="user_birthday" name="birthday">
+            </div>
+
+            <div>
+                <h4>Gender</h4>
+                <div>
+                    <label for="user_man">Man</label>
+                    <input type="radio" id="user_man" name="man">
+                    <label for="user_woman">Woman</label>
+                    <input type="radio" id="user_woman" name="woman">
+                </div>
+            </div>
+
+            <div>
+                <label for="city">City</label>
+                <select id="city">
+                    <option name="Odessa">Odessa</option>
+                    <option name="Lviv">Lviv</option>
+                    <option name="London">London</option>
+                    <option name="Paris">Paris</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="adress">Your adress</label>
+                <textarea name="adress" id="adress" style="resize: none;" cols="30" rows="4"></textarea>
+            </div>
+
+            <div>
+                <input id="ua" type="checkbox" name="Ukrainian">
+                <label for="ua">Ukrainian</label>
+                <input id="en" type="checkbox" name="English">
+                <label for="en">English</label>
+                <input id="german" type="checkbox" name="German">
+                <label for="german">German</label>
+                <input id="spain" type="checkbox" name="Spain">
+                <label for="spain">Spain</label>
+            </div>
+
+            <button type="submit">SEND</button>
+
+        </form>
+
+      
+            
+        <script src="./scripts/main.js"></script>
+    
+
+    </body>
+</html>
